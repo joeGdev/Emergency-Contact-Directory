@@ -1,3 +1,58 @@
 .hidden {
 	display: none;
 }
+
+.vend-sans {
+	font-family: "Vend Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}  
+
+body {
+	font-family: "Vend Sans", sans-serif !important;
+}
+
+.table {
+	border-color: #00573B !important;
+	
+}
+
+.tableHeader > th {
+	background-color: #1BB6A9 !important;
+	color: white;
+}
+
+.tableBody > td {
+	background-color: #E9FCFA !important;
+}
+
+.form {
+	border-color: #00573B !important;
+	width: 20vw !important;
+	min-width: 300px;
+}
+
+.btn-primary {
+	background-color: #1BB6A9;
+	border-color: #00573B !important;
+	
+}
+
+.btn-primary:hover {
+	background-color: #107c73;
+}
+
+.material-symbols-outlined {
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 400,
+	'GRAD' 0,
+	'opsz' 24;
+}
+
+.form-label {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
