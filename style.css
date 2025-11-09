@@ -2,57 +2,34 @@
 	display: none;
 }
 
-.vend-sans {
-	font-family: "Vend Sans", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 400;
-	font-style: normal;
-}  
-
-body {
-	font-family: "Vend Sans", sans-serif !important;
-}
-
 .table {
-	border-color: #00573B !important;
-	
+	border-color: rgb(141, 60, 87) !important;
 }
 
-.tableHeader > th {
-	background-color: #1BB6A9 !important;
+.tableHead > th {
+	background-color: palevioletred !important;
 	color: white;
 }
 
 .tableBody > td {
-	background-color: #E9FCFA !important;
-}
-
-.form {
-	border-color: #00573B !important;
-	width: 20vw !important;
-	min-width: 300px;
+	background-color: rgb(249, 217, 228) !important;
 }
 
 .btn-primary {
-	background-color: #1BB6A9;
-	border-color: #00573B !important;
-	
+	background-color: palevioletred !important;
+	border-color: rgb(141, 60, 87) !important;
 }
 
 .btn-primary:hover {
-	background-color: #107c73;
-}
-
-.material-symbols-outlined {
-	font-variation-settings:
-	'FILL' 0,
-	'wght' 400,
-	'GRAD' 0,
-	'opsz' 24;
+	background-color: rgb(152, 79, 104) !important;
 }
 
 .form-label {
 	display: flex;
-	align-items: center;
 	gap: 4px;
+}
+
+.form {
+	max-width: 500px;
+	min-width: 100px;
 }
